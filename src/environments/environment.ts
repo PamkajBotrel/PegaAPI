@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: 'https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1'
 };
 
 /*
