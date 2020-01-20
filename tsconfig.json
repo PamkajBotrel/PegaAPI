@@ -3,6 +3,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
+      "@service/*": ["src/app/service/*"],
       "@app/*": ["src/app/*"],
       "@environments/*": ["src/environments/*"]
   },

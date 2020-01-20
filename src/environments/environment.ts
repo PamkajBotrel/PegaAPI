@@ -4,7 +4,14 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1'
+  api: 'https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1',
+  user: 'pamkaj.botrel@cgi.com',
+  password: 'N0v4n0v3l',
+  apiServicesUrl: {
+    casetypes: 'casetypes',
+    createCase: 'cases'
+  },
+  testCaseType: 'O9FKI1-MyLabEUT-Work-AjouterClientVer2'
 };
 
 /*
