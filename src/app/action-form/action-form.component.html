@@ -1,0 +1,6 @@
+<form>
+    <span *ngFor="let field of actionForm.fields">
+        <label for="{{field.reference}}">{{field.label}} : </label>
+        <input type="text" id="{{field.reference}}" name="{{field.reference}}" /><br />
+    </span>
+</form>

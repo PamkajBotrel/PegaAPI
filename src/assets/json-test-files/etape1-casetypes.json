@@ -1,0 +1,33 @@
+{
+    "pxObjClass": "Pega-API-CaseManagemen//t",
+    "caseTypes": [
+        {
+            "CanCreate": "true",
+            "ID": "O9FKI1-MyLabEUT-Work-AjouterClient",
+            "name": "AjouterClient",
+            "pxObjClass": "Pega-API-CaseManagement-CaseType",
+            "startingProcesses": [
+                {
+                    "ID": "pyStartCase",
+                    "name": "Ajouter Client",
+                    "pxObjClass": "Pega-API-CaseManagement-Process",
+                    "requiresFieldsToCreate": "true"
+                }
+            ]
+        },
+        {
+            "CanCreate": "true",
+            "ID": "O9FKI1-MyLabEUT-Work-AjouterClientVer2",
+            "name": "AjouterClientVer2",
+            "pxObjClass": "Pega-API-CaseManagement-CaseType",
+            "startingProcesses": [
+                {
+                    "ID": "pyStartCase",
+                    "name": "Ajouter Client ver2",
+                    "pxObjClass": "Pega-API-CaseManagement-Process",
+                    "requiresFieldsToCreate": "false"
+                }
+            ]
+        }
+    ]
+}

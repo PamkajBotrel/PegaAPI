@@ -7,13 +7,20 @@ export const environment = {
   api: 'https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1',
   user: 'pamkaj.botrel@cgi.com',
   password: 'N0v4n0v3l',
-  apiServicesUrl: {
-    casetypes: 'casetypes',
-    createCase: 'cases'
+  url: 'http://localhost:4200/',
+  localJson: {
+    casetypeList: 'assets/json-test-files/etape1-casetypes.json', // GET https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1/casetypes
+    casetypeDetails: 'assets/json-test-files/etape2-casetypes-details.json', // GET https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1/casetypes/O9FKI1-MyLabEUT-Work-AjouterClientVer2?flatListOfFields=Basic
+    createCase: 'assets/json-test-files/etape3-create-case.json', // POST https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1/cases,
+    assignmentsDetails: 'assets/json-test-files/etape4-1x-assignments-detail.json', // POST https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1/assignments/{{nextAssignmentID}}
+    assignmentsDetailsView: 'assets/json-test-files/etape4-2x-assignments-details-view.json', // GET /assignments/{ID}/actions/{actionID} 
+    actionFormValuesValidate: 'assets/json-test-files/etape4-3x-action-form-validate.json', // GET /assignments/{ID}/actions/{actionID}/refresh
   },
-  testCaseType: 'O9FKI1-MyLabEUT-Work-AjouterClientVer2'
-};
+  apiUrl: {
+    casetypeList: { method: 'GET', url: 'https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1/casetypes' } //GET
 
+  }
+}
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.

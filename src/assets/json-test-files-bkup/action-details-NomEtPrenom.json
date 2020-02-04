@@ -1,0 +1,109 @@
+{
+    "view": {
+        "reference": "",
+        "validationMessages": "",
+        "viewID": "NomEtPrenom",
+        "visible": true,
+        "name": "Nom et Prenom",
+        "appliesTo": "O9FKI1-MyLabEUT-Work-AjouterClientVer2",
+        "groups": [
+            {
+                "layout": {
+                    "visible": true,
+                    "titleFormat": "h2",
+                    "containerFormat": "NOHEADER",
+                    "groups": [
+                        {
+                            "field": {
+                                "validationMessages": "",
+                                "visible": true,
+                                "labelReserveSpace": true,
+                                "readOnly": false,
+                                "control": {
+                                    "modes": [
+                                        {
+                                            "modeType": "editable",
+                                            "controlFormat": "Standard",
+                                            "textAlign": "Left",
+                                            "tooltip": "",
+                                            "maxChars": "",
+                                            "formatType": "none",
+                                            "specifySize": "auto",
+                                            "minChars": ""
+                                        },
+                                        {
+                                            "modeType": "readOnly",
+                                            "tooltip": "",
+                                            "showReadOnlyValidation": "false",
+                                            "formatType": "none"
+                                        }
+                                    ],
+                                    "actionSets": [],
+                                    "type": "pxTextInput"
+                                },
+                                "label": "Nom",
+                                "type": "Text",
+                                "required": true,
+                                "reference": "Nom",
+                                "labelFormat": "Standard",
+                                "disabled": false,
+                                "testID": "202001150508440232f305b69d-e917-485c-8dd9-2ff56d13d12a237",
+                                "value": "",
+                                "maxLength": 256,
+                                "expectedLength": "",
+                                "fieldID": "Nom"
+                            }
+                        },
+                        {
+                            "field": {
+                                "validationMessages": "",
+                                "visible": true,
+                                "labelReserveSpace": true,
+                                "readOnly": false,
+                                "control": {
+                                    "modes": [
+                                        {
+                                            "modeType": "editable",
+                                            "controlFormat": "Standard",
+                                            "textAlign": "Left",
+                                            "tooltip": "",
+                                            "maxChars": "",
+                                            "formatType": "none",
+                                            "specifySize": "auto",
+                                            "minChars": ""
+                                        },
+                                        {
+                                            "modeType": "readOnly",
+                                            "tooltip": "",
+                                            "showReadOnlyValidation": "false",
+                                            "formatType": "none"
+                                        }
+                                    ],
+                                    "actionSets": [],
+                                    "type": "pxTextInput"
+                                },
+                                "label": "Prenom",
+                                "type": "Text",
+                                "required": true,
+                                "reference": "Prenom",
+                                "labelFormat": "Standard",
+                                "disabled": false,
+                                "testID": "202001150508440232bf672d7a-7d11-49ee-ba99-4e3336b9dd3e670",
+                                "value": "",
+                                "maxLength": 256,
+                                "expectedLength": "",
+                                "fieldID": "Prenom"
+                            }
+                        }
+                    ],
+                    "groupFormat": "Stacked",
+                    "layoutFormat": "SIMPLELAYOUT",
+                    "title": ""
+                }
+            }
+        ]
+    },
+    "caseID": "O9FKI1-MYLABEUT-WORK A-1002",
+    "name": "Nom et Prenom",
+    "actionID": "NomEtPrenom"
+}

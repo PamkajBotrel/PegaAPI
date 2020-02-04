@@ -1,12 +1,10 @@
 import { Routes, RouterModule } from '@angular/router';
-import { CaseTypeComponent } from '../case-type/case-type.component';
 import { NgModule } from '@angular/core';
-import { CreateCaseComponent } from '../create-case/create-case.component';
-
+import { HelloWorldComponent } from '../hello-world/hello-world.component';
+import { ActionFormComponent } from '../action-form/action-form.component';
 const routes: Routes = [
-    { path: 'casetypes', component: CaseTypeComponent},
-    { path: '', component: CaseTypeComponent},
-    { path: 'casetest', component: CreateCaseComponent}
+    { path: 'hello-world', component: HelloWorldComponent},
+    { path: 'action-form-test', component: ActionFormComponent}
 ];
 
 @NgModule({

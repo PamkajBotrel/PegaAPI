@@ -1,0 +1,379 @@
+{
+ "caseTypeID": "O9FKI1-MyLabEUT-Work-AjouterClientVer2",
+ "creation_page": {
+  "validationMessages": "",
+  "name": "New",
+  "appliesTo": "Work-",
+  "groups": [
+   {
+    "layout": {
+     "groups": [
+      {
+       "layout": {
+        "view": {
+         "reference": "",
+         "validationMessages": "",
+         "viewID": "pyNewCaseHeaderOuter",
+         "visible": true,
+         "name": "Header of the New harness",
+         "appliesTo": "O9FKI1-MyLabEUT-Work-AjouterClientVer2",
+         "groups": [
+          {
+           "view": {
+            "reference": "",
+            "validationMessages": "",
+            "viewID": "pyNewCaseHeaderInner",
+            "visible": true,
+            "titleFormat": "",
+            "name": "Heading for new Work",
+            "appliesTo": "O9FKI1-MyLabEUT-Work-AjouterClientVer2",
+            "groups": [
+             {
+              "layout": {
+               "visible": true,
+               "titleFormat": "h2",
+               "containerFormat": "Workarea header",
+               "groups": [
+                {
+                 "layout": {
+                  "visible": true,
+                  "titleFormat": "h2",
+                  "containerFormat": "NOHEADER",
+                  "groups": [
+                   {
+                    "field": {
+                     "visible": false,
+                     "disabled": false,
+                     "fieldID": "pzInsKey"
+                    }
+                   },
+                   {
+                    "layout": {
+                     "visible": true,
+                     "titleFormat": "h2",
+                     "containerFormat": "NOHEADER",
+                     "groups": [
+                      {
+                       "view": {
+                        "reference": "",
+                        "validationMessages": "",
+                        "viewID": "pyNewCaseHeaderInnerTitleText",
+                        "visible": true,
+                        "name": "New Case Header Inner Title Text",
+                        "appliesTo": "O9FKI1-MyLabEUT-Work-AjouterClientVer2",
+                        "groups": [
+                         {
+                          "layout": {
+                           "visible": true,
+                           "titleFormat": "h1",
+                           "containerFormat": "NOHEADER",
+                           "groups": [],
+                           "groupFormat": "Inline middle",
+                           "layoutFormat": "SIMPLELAYOUT",
+                           "title": "New:"
+                          }
+                         }
+                        ]
+                       }
+                      },
+                      {
+                       "view": {
+                        "reference": "",
+                        "validationMessages": "",
+                        "viewID": "pyNewCaseHeaderInnerTitle",
+                        "visible": true,
+                        "name": "New CaseHeader Inner Title",
+                        "appliesTo": "O9FKI1-MyLabEUT-Work-AjouterClientVer2",
+                        "groups": [
+                         {
+                          "layout": {
+                           "visible": true,
+                           "titleFormat": "h1",
+                           "containerFormat": "NOHEADER",
+                           "groups": [],
+                           "groupFormat": "Inline middle",
+                           "layoutFormat": "SIMPLELAYOUT",
+                           "title": "Ajouter Client ver2"
+                          }
+                         }
+                        ]
+                       }
+                      },
+                      {
+                       "view": {
+                        "reference": "",
+                        "validationMessages": "",
+                        "viewID": "pzConfigureCaseTypeAtRuntime",
+                        "visible": false,
+                        "name": "Configure Case Type at run time",
+                        "appliesTo": "O9FKI1-MyLabEUT-Work-AjouterClientVer2"
+                       }
+                      }
+                     ],
+                     "groupFormat": "Inline middle",
+                     "layoutFormat": "SIMPLELAYOUT",
+                     "title": ""
+                    }
+                   }
+                  ],
+                  "groupFormat": "Simple list",
+                  "layoutFormat": "SIMPLELAYOUT",
+                  "title": ""
+                 }
+                },
+                {
+                 "layout": {
+                  "visible": true,
+                  "titleFormat": "h2",
+                  "containerFormat": "NOHEADER",
+                  "groups": [
+                   {
+                    "field": {
+                     "validationMessages": "",
+                     "visible": true,
+                     "labelReserveSpace": false,
+                     "readOnly": false,
+                     "control": {
+                      "modes": [
+                       {
+                        "modeType": "ignore",
+                        "tooltip": ""
+                       },
+                       {
+                        "modeType": "readOnly",
+                        "autoPrepend": "",
+                        "controlFormat": "pzhc",
+                        "tooltip": "",
+                        "showReadOnlyValidation": "false",
+                        "autoAppend": "",
+                        "formatType": "text"
+                       }
+                      ],
+                      "actionSets": [],
+                      "label": "Cancel",
+                      "type": "pxButton"
+                     },
+                     "label": "",
+                     "type": "Text",
+                     "showLabel": false,
+                     "required": false,
+                     "reference": "pyTemplateButton",
+                     "labelFormat": "Standard",
+                     "disabled": false,
+                     "value": "",
+                     "maxLength": 0,
+                     "expectedLength": "",
+                     "fieldID": "pyTemplateButton"
+                    }
+                   },
+                   {
+                    "field": {
+                     "visible": false,
+                     "disabled": false,
+                     "fieldID": "pyTemplateButton"
+                    }
+                   },
+                   {
+                    "field": {
+                     "visible": false,
+                     "disabled": false,
+                     "fieldID": "pyTemplateButton"
+                    }
+                   }
+                  ],
+                  "groupFormat": "Inline middle",
+                  "layoutFormat": "SIMPLELAYOUT",
+                  "title": ""
+                 }
+                },
+                {
+                 "layout": {
+                  "visible": false,
+                  "titleFormat": "h2",
+                  "containerFormat": "NOHEADER",
+                  "groups": [],
+                  "groupFormat": "Inline middle",
+                  "layoutFormat": "SIMPLELAYOUT",
+                  "title": ""
+                 }
+                }
+               ],
+               "groupFormat": "Inline middle",
+               "layoutFormat": "SIMPLELAYOUT",
+               "title": ""
+              }
+             },
+             {
+              "view": {
+               "viewID": "pyNewCaseHeaderInnerMobile",
+               "visible": false,
+               "titleFormat": "h1",
+               "title": "New Ajouter Client ver2"
+              }
+             },
+             {
+              "view": {
+               "viewID": "pyMobileStatusBanner",
+               "visible": false,
+               "titleFormat": "h2",
+               "title": ""
+              }
+             }
+            ],
+            "title": ""
+           }
+          },
+          {
+           "view": {
+            "reference": "",
+            "validationMessages": "",
+            "viewID": "pyCaseErrorSection",
+            "visible": true,
+            "titleFormat": "h2",
+            "name": "pyCaseErrorSection",
+            "appliesTo": "O9FKI1-MyLabEUT-Work-AjouterClientVer2",
+            "groups": [
+             {
+              "layout": {
+               "visible": false,
+               "titleFormat": "h2",
+               "containerFormat": "Errors",
+               "groups": [],
+               "groupFormat": "Stacked",
+               "layoutFormat": "SIMPLELAYOUT",
+               "title": ""
+              }
+             }
+            ],
+            "title": ""
+           }
+          },
+          {
+           "view": {
+            "viewID": "pyShowErrorsOnAssignmentPage",
+            "visible": false,
+            "titleFormat": "",
+            "title": "Title"
+           }
+          }
+         ]
+        },
+        "groupFormat": "TOP",
+        "layoutFormat": "SIMPLELAYOUT"
+       }
+      },
+      {
+       "layout": {
+        "view": {
+         "viewID": "pyNewCaseMain",
+         "visible": true,
+         "name": "pyNewCaseMain",
+         "appliesTo": "O9FKI1-MyLabEUT-Work-AjouterClientVer2",
+         "groups": [
+          {
+           "field": {
+            "validationMessages": "",
+            "visible": true,
+            "labelReserveSpace": false,
+            "readOnly": false,
+            "control": {
+             "modes": [],
+             "actionSets": [],
+             "type": "pxTextInput"
+            },
+            "label": "Nom",
+            "type": "Text",
+            "required": false,
+            "reference": "Nom",
+            "labelFormat": "",
+            "disabled": false,
+            "value": "",
+            "maxLength": 256,
+            "expectedLength": "",
+            "fieldID": "Nom"
+           }
+          },
+          {
+           "field": {
+            "validationMessages": "",
+            "visible": true,
+            "labelReserveSpace": false,
+            "readOnly": false,
+            "control": {
+             "modes": [],
+             "actionSets": [],
+             "type": "pxTextInput"
+            },
+            "label": "Prenom",
+            "type": "Text",
+            "required": false,
+            "reference": "Prenom",
+            "labelFormat": "",
+            "disabled": false,
+            "value": "",
+            "maxLength": 256,
+            "expectedLength": "",
+            "fieldID": "Prenom"
+           }
+          },
+          {
+           "field": {
+            "validationMessages": "",
+            "visible": true,
+            "labelReserveSpace": false,
+            "readOnly": false,
+            "control": {
+             "modes": [],
+             "actionSets": [],
+             "type": "pxEmail"
+            },
+            "label": "Email",
+            "type": "Text",
+            "required": false,
+            "reference": "Email",
+            "labelFormat": "",
+            "disabled": false,
+            "value": "",
+            "maxLength": 0,
+            "expectedLength": "",
+            "fieldID": "Email"
+           }
+          },
+          {
+           "field": {
+            "validationMessages": "",
+            "visible": true,
+            "labelReserveSpace": false,
+            "readOnly": false,
+            "control": {
+             "modes": [],
+             "actionSets": [],
+             "type": "pxTextInput"
+            },
+            "label": "NumeroCB",
+            "type": "Text",
+            "required": false,
+            "reference": "NumeroCB",
+            "labelFormat": "",
+            "disabled": false,
+            "value": "",
+            "maxLength": 256,
+            "expectedLength": "",
+            "fieldID": "NumeroCB"
+           }
+          }
+         ]
+        },
+        "groupFormat": "CENTER",
+        "layoutFormat": "SIMPLELAYOUT"
+       }
+      }
+     ],
+     "groupFormat": "header",
+     "layoutFormat": "SCREENLAYOUT"
+    }
+   }
+  ],
+  "pageID": "New"
+ }
+}

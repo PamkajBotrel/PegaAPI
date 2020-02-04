@@ -1,0 +1,29 @@
+{
+    "caseID": "O9FKI1-MYLABEUT-WORK A-1006",
+    "ID": "ASSIGN-WORKLIST O9FKI1-MYLABEUT-WORK A-1006!COORDONNEESCLIENT_FLOW",
+    "name": "Ajouter Client ver2",
+    "pxObjClass": "Pega-API-CaseManagement-Assignment",
+    "routedTo": "pamkaj.botrel@cgi.com",
+    "type": "Worklist",
+    "urgency": "10",
+    "actions": [
+        {
+            "ID": "NomEtPrenom",
+            "name": "Nom et Prenom",
+            "pxObjClass": "Pega-API-CaseManagement-Action",
+            "type": "Assignment"
+        },
+        {
+            "ID": "pyUpdateCaseDetails",
+            "name": "Edit details",
+            "pxObjClass": "Pega-API-CaseManagement-Action",
+            "type": "Case"
+        },
+        {
+            "ID": "pyChangeStage",
+            "name": "Change stage",
+            "pxObjClass": "Pega-API-CaseManagement-Action",
+            "type": "Case"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "caseTypeID": "O9FKI1-MyLabEUT-Work-AjouterClientVer2",
+    "creation_page": {
+        "validationMessages": "",
+        "name": "New",
+        "appliesTo": "Work-",
+        "groups": [
+            {
+                "field": {
+                    "reference": "Nom",
+                    "validationMessages": "",
+                    "readOnly": false,
+                    "type": "Text",
+                    "value": "",
+                    "required": false,
+                    "maxLength": 256,
+                    "fieldID": "Nom"
+                }
+            },
+            {
+                "field": {
+                    "reference": "Prenom",
+                    "validationMessages": "",
+                    "readOnly": false,
+                    "type": "Text",
+                    "value": "",
+                    "required": false,
+                    "maxLength": 256,
+                    "fieldID": "Prenom"
+                }
+            },
+            {
+                "field": {
+                    "reference": "Email",
+                    "validationMessages": "",
+                    "readOnly": false,
+                    "type": "Text",
+                    "value": "",
+                    "required": false,
+                    "maxLength": 0,
+                    "fieldID": "Email"
+                }
+            },
+            {
+                "field": {
+                    "reference": "NumeroCB",
+                    "validationMessages": "",
+                    "readOnly": false,
+                    "type": "Text",
+                    "value": "",
+                    "required": false,
+                    "maxLength": 256,
+                    "fieldID": "NumeroCB"
+                }
+            }
+        ],
+        "pageID": "New"
+    }
+}

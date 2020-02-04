@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DynamicFormComponent } from './dynamic-form.component';
+import { CasetypeChoiceFormComponent } from './casetype-choice-form.component';
 
-describe('DynamicFormComponent', () => {
-  let component: DynamicFormComponent;
-  let fixture: ComponentFixture<DynamicFormComponent>;
+describe('CasetypeChoiceFormComponent', () => {
+  let component: CasetypeChoiceFormComponent;
+  let fixture: ComponentFixture<CasetypeChoiceFormComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DynamicFormComponent ]
+      declarations: [ CasetypeChoiceFormComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DynamicFormComponent);
+    fixture = TestBed.createComponent(CasetypeChoiceFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
