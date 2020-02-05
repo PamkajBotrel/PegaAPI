@@ -1,1 +1,10 @@
-<p>casetype-choice-form works!</p>
+<h1>Choix du <em>casetype</em>.</h1>
+<form id="casetype-choice" (ngSubmit)="onSubmit()">
+<div class="form-group">
+    <label for="casetype"><em>Casetype</em> :</label>
+    <select [(ngModel)]="chosenCasetype" class="form-control" name="select-casetype" id="casetype" required>
+        <option *ngFor="let c of casetypes" [ngValue]="c">{{c.name}}</option>
+    </select>
+</div>
+<button type="submit" class="btn btn-success">Choisir</button>
+</form>

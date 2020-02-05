@@ -1,0 +1,9 @@
+<form id="case-start" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+<h3>Nom du parcours : {{casetype.name}}</h3>
+<ul *ngFor="let f of casetype.fields">
+    {{f.reference}} : --------
+</ul>
+</div>
+<button type="submit" class="btn btn-success">Créer cas</button>
+</form>

@@ -6,7 +6,9 @@ export const environment = {
   production: false,
   api: 'https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1',
   user: 'pamkaj.botrel@cgi.com',
-  password: 'N0v4n0v3l',
+  password: 'toto1234',
+  adressChangeCaseTypeID: 'PegaComm-FW-CPMCFW-Work-AddressChange',
+  adresseChangeName: 'AddressChange',
   url: 'http://localhost:4200/',
   localJson: {
     casetypeList: 'assets/json-test-files/etape1-casetypes.json', // GET https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1/casetypes
@@ -17,8 +19,12 @@ export const environment = {
     actionFormValuesValidate: 'assets/json-test-files/etape4-3x-action-form-validate.json', // GET /assignments/{ID}/actions/{actionID}/refresh
   },
   apiUrl: {
-    casetypeList: { method: 'GET', url: 'https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1/casetypes' } //GET
-
+    casetypeList: { method: 'GET', url: 'https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1/casetypes' },
+    casetypeDetails: {method:'GET', url:  'https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1/casetypes/$ID?flatListOfFields=Basic'},
+    createCase: {method:'POST', url: 'https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1/cases'},
+    assignmentDetails: {method:'GET', url: 'https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1/assignments/$nextAssignmentID'},
+    assignmentsDetailsView: {method:'GET', url: 'https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1/assignments/$nextAssignmentID/actions/$nextActionID'},
+    submitAction: {method:'POST', url: 'https://cgie2ehorizontal83.pegatsdemo.com:443/prweb/api/v1/assignments/$nextAssignmentID?actionID=$nextActionID'}
   }
 }
 /*

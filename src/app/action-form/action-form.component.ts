@@ -10,10 +10,10 @@ import { PegaApiService } from '../services/pega-api.service';
 export class ActionFormComponent implements OnInit {
   actionForm:ActionForm
 
-  constructor(private service:PegaApiService) { }
+  constructor() { }
 
   ngOnInit() {
-    console.log(this.service.getAllCasetypes())
+
   }
 
 }

@@ -1,0 +1,10 @@
+<h2>{{assignmentView.name}}</h2>
+<form novalidate id="action-form" (ngSubmit)="onSubmit(result.value)" #result="ngForm" name="action-form" >
+<div class="form-group" *ngFor="let f of assignmentView.fields">
+    <label for="{{f.fieldID}}">{{f.label}} : </label>
+    <input class="form-control" type="text" name="{{f.fieldID}}" [(ngModel)]="f.fieldID"/><br/>
+</div>
+
+<button type="submit" class="btn btn-success">Envoyer</button>
+
+</form>

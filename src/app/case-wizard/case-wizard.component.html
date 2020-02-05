@@ -1,0 +1,13 @@
+<h1>Démonstration API</h1>
+<div class="container" [ngSwitch]="step">
+    <app-casetype-details *ngSwitchCase="STEPS.casetypeDetails" [casetype]="chosenCasetype"
+        (choice)="goToCreateCase($event)">
+    </app-casetype-details>
+    <app-assignment-details *ngSwitchCase="STEPS.assignmentDetails" [details]="currentAssignmentDetails">
+    </app-assignment-details>
+    <app-assignment-view *ngSwitchCase="STEPS.assignmentView" [assignmentView]="currentAssignmentView" (choice)="goToSubmitAssignmentView($event)">
+    </app-assignment-view>
+    <div *ngSwitchCase="STEPS.caseOver">
+        Parcours terminé !
+    </div>
+</div>

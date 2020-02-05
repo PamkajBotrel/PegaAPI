@@ -1,26 +1,28 @@
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { ActionFormComponent } from './action-form/action-form.component';
 import { AppComponent } from './app.component';
+import { CaseWizardComponent } from './case-wizard/case-wizard.component';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { AppRoutingModule } from './router/app-routing.module';
 import { PegaApiService } from './services/pega-api.service';
-import { CasetypeChoiceFormComponent } from './casetype-choice-form/casetype-choice-form.component';
-
+import { CaseWizardModule } from './case-wizard/case-wizard.module';
 @NgModule({
     imports: [
         BrowserModule,
         HttpClientModule,
         AppRoutingModule,
-        CommonModule
+        CommonModule,
+        FormsModule,
+        CaseWizardModule
     ],
     declarations: [
         AppComponent,
         HelloWorldComponent,
         ActionFormComponent,
-        CasetypeChoiceFormComponent
     ],
     providers: [
         PegaApiService
